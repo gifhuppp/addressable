@@ -22,14 +22,9 @@ TEXT
 PKG_FILES = FileList[
     "data/**/*",
     "lib/**/*.rb",
-    "spec/**/*.rb",
-    "tasks/**/*.rake",
-    "addressable.gemspec",
     "CHANGELOG.md",
-    "Gemfile",
     "LICENSE.txt",
     "README.md",
-    "Rakefile",
 ]
 
 task :default => "spec"
